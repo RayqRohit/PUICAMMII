@@ -282,6 +282,7 @@ body {
 .faculty-heading {
     font-size: 2.5rem;
     font-weight: 700;
+    font-family: var(--font-parkinsans);
 }
 
 .faculty-heading span {
