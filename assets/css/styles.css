@@ -35,12 +35,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: hsl(0, 0%, 80%);
+    background-color: hsl(213, 97%, 69%);
 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: hsl(0, 0%, 70%);
+    background-color: hsl(214, 93%, 78%);
 }
 
 
@@ -484,4 +484,94 @@ body {
 
 .themes-box li {
     margin-bottom: 8px;
+}
+
+
+
+/* =========================
+   GUESTS SECTION
+========================= */
+
+.guests-section {
+    background: #f4f4f4;
+}
+
+.guests-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: var(--font-parkinsans);
+    margin-bottom: 5rem !important;
+}
+
+.arrow-blue {
+    color: #167bb7;
+    margin: 0 10px;
+}
+
+/* Speaker Card */
+.speaker-card {
+    text-align: center;
+    position: relative;
+}
+
+.role-badge {
+    background: #167bb7;
+    color: #fff;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.role-badge.grey {
+    background: #e0e0e0;
+    color: #000;
+}
+
+.speaker-img {
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.speaker-img img {
+    width: 100%;
+    display: block;
+}
+
+.speaker-name {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    color: #fff;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.speaker-desc {
+    font-size: 13px;
+    margin-top: 10px;
+    color: #333;
+
+    text-align: center;
+}
+
+.small .speaker-img {
+    border-radius: 15px;
+}
+
+.small-text {
+    font-size: 12px;
+}
+
+/* Divider */
+.divider-line {
+    width: 250px;
+    height: 6px;
+    background: #167bb7;
+    margin: 0 auto;
+    border-radius: 5px;
 }
