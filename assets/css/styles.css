@@ -680,17 +680,17 @@ body {
     align-items: center;
 }
 
-.participation-content{
-    padding : 3rem;
+.participation-content {
+    padding: 3rem;
     padding-bottom: 0 !important;
 }
 
-.key-dates-box{
+.key-dates-box {
     margin: 0.5rem;
-    
+
 }
 
-.participation-wrapper{
+.participation-wrapper {
     padding-bottom: 0.1rem;
 }
 
@@ -731,11 +731,21 @@ body {
     color: #fff;
 }
 
+.registration-table th {
+    font-family: var(--font-parkinsans);
+}
+
+.registration-table td {
+    font-weight: 400;
+}
+
 .registration-table th,
 .registration-table td {
     padding: 12px 15px;
     border: 1px solid #ccc;
     text-align: left;
+    font-family: var(--font-parkinsans);
+
 }
 
 .registration-table tbody tr:nth-child(even) {
@@ -753,6 +763,7 @@ body {
 .payment-heading {
     color: #167bb7;
     font-weight: 700;
+    font-family: var(--font-poppins-bold);
 }
 
 .payment-list {
@@ -769,9 +780,126 @@ body {
 
 .qr-text {
     font-weight: 600;
+    font-size: 1.5rem;
+    font-family: var(--font-parkinsans);
 }
 
 .qr-img {
     width: 140px;
     border-radius: 8px;
+}
+
+
+/* =========================
+   KNOWLEDGE PARTNERS
+========================= */
+
+.partners-section {
+    background: #f4f4f4;
+}
+
+.partners-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: var(--font-parkinsans);
+    padding-bottom: 1rem !important;
+}
+
+.partner-logo {
+    padding: 20px;
+}
+
+.partner-logo img {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    transition: 0.3s ease;
+    mix-blend-mode: multiply;
+}
+
+/* Optional Hover Effect */
+.partner-logo img:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+/* =========================
+   ORGANISING COMMITTEE
+========================= */
+
+.committee-section {
+    background: #167bb7;
+    color: #fff;
+}
+
+.committee-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: var(--font-parkinsans);
+}
+
+.arrow-yellow {
+    color: #ffd95a;
+    margin: 0 10px;
+}
+
+.committee-card {
+    background: #fff8db;
+    color: #000;
+    padding: 30px;
+    border-radius: 25px;
+    height: 100%;
+}
+
+.committee-card h3 {
+    color: #167bb7;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+}
+
+.committee-card ul {
+    padding-left: 18px;
+    margin: 0;
+}
+
+.committee-card li {
+    margin-bottom: 8px;
+    font-weight: bolder;
+}
+
+.members-card {
+    padding: 40px;
+}
+
+
+
+/* =========================
+   CONTACT SECTION
+========================= */
+
+.contact-section {
+    background: #f4f4f4;
+    border-top: 4px solid #167bb7;
+}
+
+.contact-info h4 {
+    font-weight: 700;
+    font-size: 1.8rem;
+    font-family: var(--font-parkinsans);
+}
+
+.contact-info p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.contact-message p {
+    font-size: 20px;
+    line-height: 1.6;
+    max-width: 500px;
+    margin-left: auto;
 }
