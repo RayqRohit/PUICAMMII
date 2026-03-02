@@ -1,6 +1,3 @@
-@media (min-width : 993px) {}
-
-
 @media (max-width: 992px) {
     .key-grid {
         grid-template-columns: 1fr;
@@ -49,7 +46,7 @@
 
 /* --------------------- */
 
-@media (min-width : 1201px){
+@media (min-width : 1201px) {
     .objective-heading-div {
         display: flex;
         flex-direction: row !important;
@@ -61,6 +58,10 @@
     .objective-heading-div {
         display: flex;
         flex-direction: row !important;
+    }
+
+    .key-grid {
+        grid-template-columns: 1fr;
     }
 
 }
@@ -99,6 +100,41 @@
 }
 
 @media (min-width: 577px) and (max-width: 767px) {
+
+
+    /* participation section */
+
+    .participation-content {
+        padding: 3rem;
+    }
+
+    .key-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .key-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .key-label {
+        font-size: 20px;
+    }
+
+    .date-tag {
+        font-size: 17px;
+        white-space: normal;
+    }
+
+    .num-box {
+        padding: 1.5rem;
+    }
+
+    .white-pill {
+        font-size: 1.6rem;
+        margin-bottom: 1.5rem;
+    }
 
 
     /* objectives section */
@@ -229,6 +265,43 @@
 
 
 @media (min-width: 481px) and (max-width: 576px) {
+
+
+    .participation-content {
+        padding: 2.5rem;
+    }
+
+    .key-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .key-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .key-label {
+        font-size: 19px;
+    }
+
+    .date-tag {
+        font-size: 16px;
+        white-space: normal;
+    }
+
+    .num-box {
+        padding: 1rem;
+    }
+
+    .white-pill {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .participation-right {
+        margin-top: 2rem;
+    }
 
     /* objectives section */
 
@@ -380,6 +453,91 @@
 
 
 @media (max-width: 480px) {
+
+
+    /* organizing committee */
+
+    .committee-heading {
+        font-size: 1.6rem;
+    }
+
+
+    .committee-card {
+        padding: 30px 20px !important;
+    }
+
+
+    /* partners section */
+
+    .partners-heading {
+        font-size: 1.8rem;
+    }
+
+    /* participation section */
+
+    .participation-content {
+        padding: 1.5rem;
+    }
+
+    .participation-content>div {
+        padding-inline: 1rem !important;
+    }
+
+    .white-pill {
+        font-size: 1.2rem;
+        padding: 6px 15px;
+        margin-bottom: 1rem;
+    }
+
+    .benefit-item {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .num-box {
+        width: 28px;
+        height: 28px;
+        font-size: 13px;
+    }
+
+    .participation-right {
+        margin-top: 1rem;
+    }
+
+    .key-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .key-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+    }
+
+    .key-label {
+        font-size: 1rem;
+    }
+
+    .date-tag {
+        font-size: 1rem;
+        white-space: normal;
+        border-radius: 10px;
+    }
+
+    .key-pill {
+        font-size: 1.1rem;
+        padding: 8px 20px;
+    }
+
+
+    .key-dates-box {
+        padding: 40px 20px;
+    }
+
+    .date-tag.wide {
+        border-radius: 15px;
+    }
 
     /* objectives section */
 
@@ -555,10 +713,130 @@
         justify-content: center;
         margin: auto;
     }
+
+    .guests-heading {
+        font-size: 1.8rem;
+    }
 }
 
 
 @media (max-width: 376px) {
+
+    /* committee section */
+
+    .committee-heading {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .committee-card {
+        padding: 30px 20px !important;
+    }
+
+
+
+    /* knowledge partners */
+
+    .partners-heading {
+        font-size: 1.6rem;
+    }
+
+    .arrow-right {
+        display: none;
+    }
+
+    .partner-logo {
+        padding: 10px;
+    }
+
+    .partner-logo img {
+        max-width: 120px;
+    }
+
+    /* registration section */
+
+    .registration-heading {
+        font-size: 1.9rem;
+    }
+
+    .arrow-right {
+        display: none;
+    }
+
+
+
+
+
+    /* participation section */
+
+
+    .objectives-heading {
+        flex-direction: row;
+    }
+
+    .participation-content {
+        padding: 1.5rem;
+    }
+
+    .participation-content>div {
+        padding-inline: 1rem !important;
+    }
+
+    .white-pill {
+        font-size: 1.2rem;
+        padding: 6px 15px;
+        margin-bottom: 1rem;
+    }
+
+    .benefit-item {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .num-box {
+        width: 28px;
+        height: 28px;
+        font-size: 13px;
+    }
+
+    .participation-right {
+        margin-top: 1rem;
+    }
+
+    .key-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .key-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+    }
+
+    .key-label {
+        font-size: 1rem;
+    }
+
+    .date-tag {
+        font-size: 1rem;
+        white-space: normal;
+        border-radius: 10px;
+    }
+
+    .key-pill {
+        font-size: 1.1rem;
+        padding: 8px 20px;
+    }
+
+
+    .key-dates-box {
+        padding: 40px 20px;
+    }
+
+    .date-tag.wide {
+        border-radius: 15px;
+    }
 
     /* guest section */
 
@@ -796,4 +1074,16 @@
         line-height: 1.4;
         text-align: left;
     }
+
+
+    .objectives-heading {
+        flex-direction: row;
+    }
+
+
+    .guests-heading {
+        font-size: 1.6rem;
+        flex-wrap: wrap;
+    }
+
 }
