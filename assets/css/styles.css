@@ -27,23 +27,8 @@ body {
 
 
 ::-webkit-scrollbar {
-    width: 10px;
+    display: none;
 }
-
-::-webkit-scrollbar-track {
-    background-color: hsl(0, 0%, 98%);
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: hsl(213, 97%, 69%);
-
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background-color: hsl(214, 93%, 78%);
-}
-
-
 
 /* =========================
    TOP HEADER
@@ -428,6 +413,11 @@ body {
     color: #ffd95a;
 }
 
+.objective-heading-div {
+    display: flex;
+    gap: 10px;
+}
+
 .arrow {
     color: #fff;
     font-size: 2.5rem;
@@ -487,6 +477,8 @@ body {
 }
 
 
+
+
 /* =========================
    GUESTS SECTION
 ========================= */
@@ -500,11 +492,15 @@ body {
     font-weight: 700;
     font-family: var(--font-parkinsans);
     margin-bottom: 5rem !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
 }
 
 .arrow-blue {
     color: #167bb7;
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 /* Speaker Card */

@@ -1,8 +1,26 @@
+@media (min-width : 993px) {}
+
+
 @media (max-width: 992px) {
     .key-grid {
         grid-template-columns: 1fr;
     }
+
+    .objective-heading-div {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
 }
+
+@media (max-width: 991px) {
+    .arrow-right {
+        display: none;
+    }
+}
+
+
 
 
 
@@ -30,6 +48,23 @@
 
 
 /* --------------------- */
+
+@media (min-width : 1201px){
+    .objective-heading-div {
+        display: flex;
+        flex-direction: row !important;
+    }
+}
+
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .objective-heading-div {
+        display: flex;
+        flex-direction: row !important;
+    }
+
+}
+
 
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -66,6 +101,34 @@
 @media (min-width: 577px) and (max-width: 767px) {
 
 
+    /* objectives section */
+
+    .objectives-heading {
+        font-size: 2.1rem;
+    }
+
+    .arrow {
+        font-size: 2rem;
+    }
+
+    .objective-item {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .objective-item p {
+        font-size: 15px;
+    }
+
+    .themes-heading {
+        font-size: 1.8rem;
+    }
+
+    .themes-box {
+        padding: 40px !important;
+    }
+
+
     /* about section */
 
     .about-section {
@@ -83,6 +146,51 @@
 
     .about-image {
         margin-top: 30px;
+    }
+
+    /* faculty section */
+
+    .faculty-section {
+        padding: 60px 25px !important;
+    }
+
+    .faculty-heading {
+        font-size: 2.2rem;
+    }
+
+    .faculty-content p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    /* department section */
+
+    .department-section {
+        padding: 0px 25px !important;
+    }
+
+    .department-heading {
+        font-size: 2.2rem;
+    }
+
+    .department-content p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    /* conference section */
+
+    .conference-section {
+        padding: 60px 25px !important;
+    }
+
+    .conference-heading {
+        font-size: 2.2rem;
+    }
+
+    .conference-content p {
+        font-size: 14px;
+        line-height: 1.6;
     }
 
     /* hero section */
@@ -122,6 +230,34 @@
 
 @media (min-width: 481px) and (max-width: 576px) {
 
+    /* objectives section */
+
+    .objectives-heading {
+        font-size: 1.9rem;
+    }
+
+    .arrow {
+        font-size: 1.8rem;
+    }
+
+    .objective-item {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .objective-item p {
+        font-size: 16px;
+    }
+
+    .themes-heading {
+        font-size: 1.6rem;
+        margin-block: 2rem;
+    }
+
+    .themes-box {
+        padding: 30px !important;
+    }
+
 
     /* about section */
 
@@ -137,6 +273,69 @@
     .about-icon {
         width: 75px;
         height: 75px;
+    }
+
+    /* faculty section */
+
+    .faculty-heading {
+        font-size: 2rem;
+    }
+
+    .faculty-content p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .faculty-icon {
+        width: 75px;
+        height: 75px;
+    }
+
+    .faculty-icon img {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* department section */
+
+    .department-heading {
+        font-size: 2rem;
+    }
+
+    .department-content p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .department-icon {
+        width: 75px;
+        height: 75px;
+    }
+
+    .department-icon img {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* conference section */
+
+    .conference-heading {
+        font-size: 2rem;
+    }
+
+    .conference-content p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .conference-icon {
+        width: 75px;
+        height: 75px;
+    }
+
+    .conference-icon img {
+        width: 40px;
+        height: 40px;
     }
 
     /* hero section */
@@ -182,6 +381,40 @@
 
 @media (max-width: 480px) {
 
+    /* objectives section */
+
+    .objectives-heading {
+        font-size: 1.7rem;
+    }
+
+    .arrow {
+        font-size: 1.7rem;
+        margin: 0 10px;
+    }
+
+    .objective-item {
+        flex-direction: column;
+    }
+
+    .objective-item p {
+        font-size: 16px;
+    }
+
+    .themes-heading {
+        font-size: 1.5rem;
+        margin-block: 1.5rem;
+
+    }
+
+    .themes-box {
+        padding: 20px !important;
+    }
+
+    .themes-box li {
+        font-size: 16px;
+        margin-bottom: 1rem;
+    }
+
     /* about section */
 
     .about-heading {
@@ -205,6 +438,78 @@
     }
 
     .about-content p {
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    /* faculty section */
+
+    .faculty-heading {
+        font-size: 1.8rem;
+        text-align: left;
+    }
+
+    .faculty-icon {
+        width: 70px;
+        height: 70px;
+        margin: 0 0 20px;
+    }
+
+    .faculty-icon img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .faculty-content p {
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    /* department section */
+
+    .department-heading {
+        font-size: 1.8rem;
+        text-align: left;
+    }
+
+    .department-icon {
+        width: 70px;
+        height: 70px;
+        margin: 0 0 20px;
+    }
+
+    .department-icon img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .department-content p {
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    /* conference section */
+
+    .conference-heading {
+        font-size: 1.8rem;
+        text-align: left;
+    }
+
+    .conference-icon {
+        width: 70px;
+        height: 70px;
+        margin: 0 0 20px;
+    }
+
+    .conference-icon img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .conference-content p {
         font-size: 14px;
         line-height: 1.5;
         text-align: left;
@@ -254,6 +559,69 @@
 
 
 @media (max-width: 376px) {
+
+    /* guest section */
+
+    .guests-heading {
+        font-size: 2rem;
+    }
+
+
+    /* objective section */
+
+    .objectives-section {
+        padding: 40px 0 !important;
+    }
+
+    .objectives-heading {
+        font-size: 1.7rem;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+
+
+    .arrow {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+
+    .objective-item {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .number-box {
+        width: 32px;
+        height: 32px;
+        font-size: 14px;
+    }
+
+    .objective-item p {
+        font-size: 1rem;
+        line-height: 1.5;
+        margin-bottom: 1rem;
+    }
+
+    .themes-box {
+        padding: 20px !important;
+        border-radius: 20px;
+    }
+
+    .themes-heading {
+        font-size: 1.4rem;
+        flex-direction: row;
+        gap: 10px;
+        margin-block: 1rem;
+    }
+
+    .themes-box li {
+        font-size: 15px;
+        margin-bottom: 1rem;
+    }
+
+    /* hero section */
 
     .hero {
         padding: 50px 15px;
@@ -343,5 +711,89 @@
 
     .icon-heading {
         margin-bottom: 2rem !important;
+    }
+
+    /* faculty section */
+
+    .faculty-section {
+        padding: 40px 0 !important;
+    }
+
+    .faculty-heading {
+        font-size: 1.6rem;
+        text-align: left;
+    }
+
+    .faculty-icon {
+        width: 60px;
+        height: 60px;
+        margin: 0 0 20px;
+    }
+
+    .faculty-icon img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .faculty-content p {
+        font-size: 14px;
+        line-height: 1.4;
+        text-align: left;
+    }
+
+    /* department section */
+
+    .department-section {
+        padding: 0px 0 !important;
+    }
+
+    .department-heading {
+        font-size: 1.6rem;
+        text-align: left;
+    }
+
+    .department-icon {
+        width: 60px;
+        height: 60px;
+        margin: 0 0 20px;
+    }
+
+    .department-icon img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .department-content p {
+        font-size: 14px;
+        line-height: 1.4;
+        text-align: left;
+    }
+
+    /* conference section */
+
+    .conference-section {
+        padding: 40px 0 !important;
+    }
+
+    .conference-heading {
+        font-size: 1.6rem;
+        text-align: left;
+    }
+
+    .conference-icon {
+        width: 60px;
+        height: 60px;
+        margin: 0 0 20px;
+    }
+
+    .conference-icon img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .conference-content p {
+        font-size: 14px;
+        line-height: 1.4;
+        text-align: left;
     }
 }
