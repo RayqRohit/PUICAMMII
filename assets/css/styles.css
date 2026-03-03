@@ -916,6 +916,21 @@ img {
 
 
 /* =========================
+   TEXT SELECTION STYLING
+========================= */
+
+::selection {
+    background-color: #167bb7;
+    color: #ffffff;
+}
+
+::-moz-selection {
+    background-color: #167bb7;
+    color: #ffffff;
+}
+
+
+/* =========================
    GO TO TOP BUTTON
 ========================= */
 
