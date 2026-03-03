@@ -84,7 +84,7 @@ body {
 
 .hero {
     position: relative;
-    background: url('../images/header-img.png') no-repeat center center/cover;
+    background: url('../images/header-img.webp') no-repeat center center/cover;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -898,4 +898,48 @@ body {
     line-height: 1.6;
     max-width: 500px;
     margin-left: auto;
+}
+
+
+/* =========================
+   GO TO TOP BUTTON
+========================= */
+
+.go-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background: #167bb7;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    opacity: 0;
+    transform: translateY(100px);
+    visibility: hidden;
+    transition: all 0.4s ease;
+}
+
+.go-to-top:hover {
+    background: #125a8a;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.go-to-top.show {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+}
+
+.go-to-top i {
+    line-height: 1;
 }
