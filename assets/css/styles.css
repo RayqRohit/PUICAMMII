@@ -1,5 +1,6 @@
 body {
     font-family: var(--font-poppins-regular);
+    overflow-x: hidden;
 }
 
 /* Font Face Declarations */
