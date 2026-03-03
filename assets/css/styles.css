@@ -1,6 +1,10 @@
+html {
+    overflow-x: hidden !important;
+}
+
 body {
     font-family: var(--font-poppins-regular);
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 /* Font Face Declarations */
@@ -38,6 +42,7 @@ body {
 .top-header {
     background: #f5f5f5;
     padding: 15px 0;
+    overflow-x: hidden;
 }
 
 .logo {
@@ -90,6 +95,7 @@ body {
     display: flex;
     align-items: center;
     color: #fff;
+    overflow-x: hidden;
 }
 
 .hero-overlay {
@@ -173,6 +179,7 @@ body {
 
 .event-details {
     margin-top: 3.5rem !important;
+    overflow-x: hidden;
 }
 
 
