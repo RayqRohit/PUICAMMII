@@ -902,6 +902,20 @@ body {
 
 
 /* =========================
+   DISABLE IMAGE SELECTION
+========================= */
+
+img {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-touch-callout: none;
+}
+
+
+/* =========================
    GO TO TOP BUTTON
 ========================= */
 
